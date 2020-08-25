@@ -6,6 +6,7 @@ h1 {
 nav {
     background-color: #f9f4f0;
     opacity: 0.9;
+    font-size: 1.25rem;
 }
 
 main {
@@ -34,7 +35,7 @@ main {
     margin: 1rem;
 }
 
-.main-body img {
+.headshot {
     max-width: 15rem;
     margin-right: 1rem;
 }
@@ -56,9 +57,24 @@ main {
     border-bottom: none;
     text-decoration: none;
 }
+.social-img {
+    max-width: 15rem;
+    margin-right: 1rem;
+}
 
 .social-links a:hover {
     opacity: 0.7;
+}
+
+/* portfolio */
+.portfolio-body {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+figure {
+    margin-top: 5%;
 }
 
 /* Footer */
