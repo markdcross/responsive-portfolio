@@ -1,7 +1,13 @@
-
+.wrapper {
+    background-image: url('assets/beach.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    height: 1080px;
+}
 
 .card {
-    margin: 20px;
+    margin: 50px;
     opacity: 0.85;
     border: solid 1px rgb(224, 190, 158);
 }
@@ -37,9 +43,8 @@
 .social-icons a:hover {
     opacity: 0.7;
 }
-/* Footer */
 
-/* //TODO Make this a sticky footer */
+/* Footer */
 
 footer {
     position: absolute;
@@ -51,26 +56,21 @@ footer {
     border-top: 1px solid rgb(224, 190, 158);
     z-index: 100;
     background: white;
+    opacity: 0.5;
 }
 
 /* Media Queries */
 @media screen and (max-width: 480px) {
-    wrapper {
-        background-color: gray;
-    }
-
     .card {
         margin: 0 auto;
         width: 100%;
     }
-}
 
-@media screen and (min-width: 481px) {
-    .wrapper {
-        background-image: url('assets/beach.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-bottom: 30px;
-        height: 1080px;
+    .card img {
+        max-width: 100%;
+    }
+
+    footer {
+        opacity: 1;
     }
 }
