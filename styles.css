@@ -50,3 +50,10 @@ footer {
     color: gray;
     border-top: 1px solid rgb(224, 190, 158);
 }
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+    .card {
+        margin: 0 auto;
+    }
+}
