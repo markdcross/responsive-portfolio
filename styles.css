@@ -1,4 +1,14 @@
-.wrapper {
+h1 {
+    font-family: 'Alef', sans-serif;
+    margin: 0.5rem 0;
+}
+
+nav {
+    background-color: #f9f4f0;
+    opacity: 0.9;
+}
+
+main {
     background-image: url('assets/beach.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,41 +16,48 @@
     height: 1080px;
 }
 
-.card {
-    margin: 50px;
+.container {
+    margin-top: 5%;
     opacity: 0.85;
     border: solid 1px rgb(224, 190, 158);
+    background-color: white;
+    min-height: 100%;
 }
 
-.card-header {
+.main-header {
+    font-family: 'Mulish', sans-serif;
     border-bottom: solid 1px rgb(224, 190, 158);
 }
-.card img {
+
+.main-title {
+    font-family: 'Alef', sans-serif;
+    margin: 1rem;
+}
+
+.main-body img {
     max-width: 15rem;
     margin-right: 1rem;
 }
 
+.main-text {
+    font-size: 1.25rem;
+}
+
 .social {
-    place-content: center;
     text-align: center;
 }
-.social-icons li {
+
+.social-links li {
     display: inline-block;
     list-style-type: none;
 }
 
-.social-icons li a {
+.social-links li a {
     border-bottom: none;
-    padding: 20px;
     text-decoration: none;
 }
 
-.social-icons li img {
-    width: 50px;
-    height: 50px;
-}
-
-.social-icons a:hover {
+.social-links a:hover {
     opacity: 0.7;
 }
 
@@ -60,21 +77,25 @@ footer {
 }
 
 /* Media Queries */
-@media screen and (max-width: 480px) {
-    .card {
-        margin: 0 auto;
-        width: 100%;
+
+/* 769 break point */
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0 10% 55% 10%;
     }
 
-    .card img {
-        max-width: 100%;
+    .main-text {
+        font-size: 18px;
+    }
+}
+
+/* 425 Break point */
+@media screen and (max-width: 470px) {
+    .container {
+        margin: 0;
     }
 
-    .card-header {
-        text-align: center;
-    }
-
-    footer {
-        opacity: 1;
+    .main-text {
+        font-size: 18px;
     }
 }
