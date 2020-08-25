@@ -22,8 +22,12 @@
         <title>Mark's Portfolio</title>
     </head>
     <body>
+        <!-- This is the Nav Bar, which will be consistent across all pages -->
+
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- Left side nav, links to GitHub profile -->
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a
                     class="navbar-brand"
                     href="https://github.com/markdcross"
@@ -41,8 +45,11 @@
                 >
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
+                <!-- Right side nav -->
+
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html"
                                 >Home <span class="sr-only">(current)</span></a
@@ -99,10 +106,131 @@
                 </div>
             </nav>
         </header>
-        <main>
-            <h1>Hello, world!</h1>
+
+        <!-- Main section -->
+
+        <main class="container-fluid wrapper">
+            <div class="row">
+                <div class="col-md-8 col-xs-12 offset-1">
+                    <section class="card">
+                        <h3 class="card-header">
+                            Full-stack developer. Brewer. Killer haircut.
+                        </h3>
+                        <div class="card-body">
+                            <img
+                                class="img-thumbnail float-left"
+                                src="assets/headshot.png"
+                                alt="Mark's headshot"
+                            />
+                            <h5 class="card-title">
+                                Who is this handsome devil?
+                            </h5>
+                            <p class="card-text">
+                                I'm Mark Cross and I'm enrolled in the
+                                University of Richmond Coding Bootcamp. Born and
+                                raised in Annapolis, MD, graduate of the
+                                Univertsity of Delaware (go Blue Hens 🐓), and
+                                now Richmond local. I've spent my career in
+                                sales and sales leadership, having recently
+                                served as the head of sales for Richmond-based
+                                startup,
+                                <a href="https://www.edconnective.com/"
+                                    >EdConenctive</a
+                                >.
+                            </p>
+                            <p class="card-text">
+                                I'm not going anywhere. They're going to execute
+                                her. Look, a few minutes ago you said you didn't
+                                want to just wait here to be captured. Now all
+                                you want to do is stay. Marching into the
+                                detention area is not what I had in mind. But
+                                they're going to kill her! Better her than me...
+                                She's rich. Rich? Yes. Rich, powerful! Listen,
+                                if you were to rescue her, the reward would
+                                be... What? Well more wealth that you can
+                                imagine. I don't know, I can imagine quite a
+                                bit! You'll get it! I better! You will...
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Social icons -->
+
+            <div class="row social">
+                <div class="col-md-12">
+                    <ul class="social-icons">
+                        <li>
+                            <a
+                                href="https://www.facebook.com/mark.cross.129"
+                                target="_blank"
+                            >
+                                <img src=Assets/facebook.png></a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://twitter.com/Crossbacca"
+                                target="_blank"
+                            >
+                                <img src=Assets/twitter.png /></a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.instagram.com/crossbacca/"
+                                target="_blank"
+                            >
+                                <img src="Assets/instagram.png"
+                            /></a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/markdcross"
+                                target="_blank"
+                            >
+                                <img src="Assets/github.png"
+                            /></a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.linkedin.com/in/markdcross/"
+                                target="_blank"
+                            >
+                                <img src="Assets/linkedin.png"
+                            /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </main>
 
+        <!-- Beginning of Footer -->
+        <!-- //TODO Make it sticky-->
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Created by Mark Cross | &copy; 2020</p>
+                        <p>
+                            <span
+                                >Background by
+                                <a
+                                    href="https://unsplash.com/@sscryp?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                                    >Mert Atakan</a
+                                >
+                                on
+                                <a
+                                    href="https://unsplash.com/@sscryp?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                                    >Unsplash</a
+                                ></span
+                            >
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script

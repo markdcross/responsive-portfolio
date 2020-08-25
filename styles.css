@@ -1,7 +1,52 @@
-nav {
-    width: 100%;
+.wrapper {
+    background-image: url('assets/beach.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-main {
-    background-image: url(/assets/stack-background.jpg)
+.card {
+    margin: 20px;
+    opacity: 0.85;
+    border: solid 1px rgb(224, 190, 158);
+}
+
+.card-header {
+    border-bottom: solid 1px rgb(224, 190, 158);
+}
+.card img {
+    max-width: 15rem;
+    margin-right: 1rem;
+}
+
+.social {
+    place-content: center;
+    text-align: center;
+}
+.social-icons li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.social-icons li a {
+    border-bottom: none;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.social-icons li img {
+    width: 50px;
+    height: 50px;
+}
+
+.social-icons a:hover {
+    opacity: 0.7;
+}
+/* Footer */
+
+/* //TODO Make this a sticky footer */
+
+footer {
+    text-align: center;
+    color: gray;
+    border-top: 1px solid rgb(224, 190, 158);
 }
