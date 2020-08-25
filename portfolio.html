@@ -22,18 +22,171 @@
         <title>Mark's Portfolio</title>
     </head>
     <body>
+        <!-- This is the Nav Bar, which will be consistent across all pages -->
+
         <header>
-            <!-- //TODO Add consistent Nav Bar once finalized on index.html -->
+            <!-- Left side nav, links to GitHub profile -->
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a
+                    class="navbar-brand"
+                    href="https://github.com/markdcross"
+                    target="_blank"
+                    >Mark Cross</a
+                >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Right side nav -->
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html"
+                                >Home <span class="sr-only">(current)</span></a
+                            >
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="portfolio.html"
+                                id="navbarDropdownMenuLink"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                Portfolio
+                            </a>
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdownMenuLink"
+                            >
+                                <a class="dropdown-item" href="portfolio.html"
+                                    >Main page</a
+                                >
+                                <hr />
+                                <a class="dropdown-item" href="portfolio.html"
+                                    >An Hour Out Placeholder</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Project Placeholder</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Project Placeholder</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Project Placeholder</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Project Placeholder</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Project Placeholder</a
+                                >
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="brewing.html">Brewing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html"
+                                >Contact me</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </header>
-        <main>
-            <h1>Hello, world!</h1>
-            <!-- //TODO Add card with card decks? -->
+
+        <!-- Main section -->
+
+        <main class="container-fluid wrapper">
+
+            <!-- Social icons -->
+
+            <div class="row social">
+                <div class="col-md-12">
+                    <ul class="social-icons">
+                        <li>
+                            <a
+                                href="https://www.facebook.com/mark.cross.129"
+                                target="_blank"
+                            >
+                                <img src="assets/facebook.png"
+                            /></a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://twitter.com/Crossbacca"
+                                target="_blank"
+                            >
+                                <img src="assets/twitter.png"
+                            /></a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.instagram.com/crossbacca/"
+                                target="_blank"
+                            >
+                                <img src="assets/instagram.png"
+                            /></a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/markdcross"
+                                target="_blank"
+                            >
+                                <img src="assets/github.png"
+                            /></a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.linkedin.com/in/markdcross/"
+                                target="_blank"
+                            >
+                                <img src="assets/linkedin.png"
+                            /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </main>
-        <footer>
-            <!-- //TODO Add social and make sticky-->
+
+        <!-- Beginning of Footer -->
+        <!-- //TODO Make it sticky-->
+        <footer class="footer mt-auto fixed-bottom">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            Created by Mark Cross | &copy; 2020 |
+
+                            <span
+                                >Background by
+                                <a
+                                    href="https://unsplash.com/@sscryp?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                                    >Mert Atakan</a
+                                >
+                                on
+                                <a
+                                    href="https://unsplash.com/@sscryp?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                                    >Unsplash</a
+                                ></span
+                            >
+                        </p>
+                    </div>
+                </div>
+            </div>
         </footer>
-
-
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script
