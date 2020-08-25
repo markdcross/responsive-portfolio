@@ -16,7 +16,7 @@ main {
     height: 1080px;
 }
 
-.container {
+.main-container {
     margin-top: 5%;
     opacity: 0.85;
     border: solid 1px rgb(224, 190, 158);
@@ -80,7 +80,7 @@ footer {
 
 /* 769 break point */
 @media screen and (max-width: 768px) {
-    .container {
+    .main-container {
         margin: 0 10% 55% 10%;
     }
 
@@ -90,9 +90,9 @@ footer {
 }
 
 /* 425 Break point */
-@media screen and (max-width: 470px) {
-    .container {
-        margin: 0;
+@media screen and (max-width: 550px) {
+    .main-container {
+        margin: 10% 0;
     }
 
     .main-text {
