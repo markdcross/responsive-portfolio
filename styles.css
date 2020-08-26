@@ -9,23 +9,17 @@ nav {
     font-size: 1.25rem;
 }
 
-.index{
+main {
     background-image: url('assets/beach.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1080px;
     margin-bottom: 30px;
-}
-
-.portfolio{
- background-image: url('assets/beach.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 30px;
+    background-attachment: fixed;
 }
 
 .main-container {
     margin-top: 5%;
+    margin-bottom: 5%;
     opacity: 0.85;
     border: solid 1px rgb(224, 190, 158);
     background-color: white;
@@ -52,6 +46,8 @@ nav {
     font-size: 1.25rem;
 }
 
+/* Social */
+
 .social {
     text-align: center;
 }
@@ -74,11 +70,47 @@ nav {
     opacity: 0.7;
 }
 
+/* Stack container */
+
+.stack-container {
+    margin-bottom: 5%;
+    opacity: 0.85;
+    border: solid 1px rgb(224, 190, 158);
+    background-color: white;
+    min-height: 100%;
+}
+
+.stack-body {
+    text-align: center;
+}
+
+.stack-icons {
+    display: inline-block;
+    place-items: center;
+}
+
+.stack-icons img {
+    width: auto;
+    height: 5rem;
+    margin: 1em 5rem;
+}
+
+.stack-icons img:hover {
+    height: 7rem;
+    transition: height .5s;
+}
+
 /* portfolio */
+
 .portfolio-body {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-bottom: 5%;
+}
+
+figure {
+    margin-top: 5%;
 }
 
 /* Contact form */
@@ -87,9 +119,6 @@ nav {
 }
 
 
-figure {
-    margin-top: 5%;
-}
 
 /* Footer */
 
@@ -128,5 +157,4 @@ footer {
     .main-text {
         font-size: 18px;
     }
-
 }
