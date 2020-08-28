@@ -71,13 +71,10 @@ main {
 }
 
 /* Stack container */
-
-.stack-container {
-    margin-bottom: 5%;
-    opacity: 0.85;
-    border: solid 1px rgb(224, 190, 158);
-    background-color: white;
-    min-height: 100%;
+.stack-header {
+    clear: both;
+    font-family: 'Mulish', sans-serif;
+    border-bottom: solid 1px rgb(224, 190, 158);
 }
 
 .stack-body {
@@ -97,7 +94,7 @@ main {
 
 .stack-icons img:hover {
     height: 7rem;
-    transition: height .5s;
+    transition: height 0.5s;
 }
 
 /* portfolio */
@@ -117,8 +114,6 @@ figure {
 .contact-form {
     margin: 5%;
 }
-
-
 
 /* Footer */
 
