@@ -28,7 +28,7 @@ The "home" page containing my personalized information, including bio, name, ima
 
 Text wraps around headshot if enough content is there to be required.
 
-Currently Learning images enlarge on hover.
+Currently Learning and social images fade on hover.
 
 All links work.
 
