@@ -40,7 +40,6 @@ main {
     max-width: 25%;
     height: auto;
     margin-right: 1rem;
-    margin-bottom: 1rem;
 }
 
 .main-text {
@@ -48,6 +47,10 @@ main {
 }
 
 /* Social */
+
+.social {
+    margin-top: 1rem;
+}
 
 .social-links li {
     display: inline-block;
@@ -57,12 +60,10 @@ main {
 .social-links li a {
     border-bottom: none;
     text-decoration: none;
-
 }
 .social-img {
     max-width: 15rem;
     margin-right: 1rem;
-
 }
 
 .social-links a:hover {
@@ -78,6 +79,7 @@ main {
 
 .stack-body {
     text-align: center;
+    width: 100%;
 }
 
 .stack-icons {
