@@ -37,7 +37,8 @@ main {
 }
 
 .headshot {
-    max-width: 18rem;
+    max-width: 25%;
+    height: auto;
     margin-right: 1rem;
     margin-bottom: 1rem;
 }
@@ -48,10 +49,6 @@ main {
 
 /* Social */
 
-.social {
-    text-align: center;
-}
-
 .social-links li {
     display: inline-block;
     list-style-type: none;
@@ -60,10 +57,12 @@ main {
 .social-links li a {
     border-bottom: none;
     text-decoration: none;
+
 }
 .social-img {
     max-width: 15rem;
     margin-right: 1rem;
+
 }
 
 .social-links a:hover {
